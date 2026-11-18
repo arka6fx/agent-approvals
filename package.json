@@ -1,0 +1,21 @@
+{
+  "name": "agent-approvals",
+  "version": "0.1.0",
+  "description": "Ask before acting: approval gates, replay-once and undo for tool-using AI agents",
+  "license": "MIT",
+  "author": "Arka Garai",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "files": ["src"],
+  "repository": { "type": "git", "url": "git+https://github.com/arka6fx/agent-approvals.git" },
+  "keywords": ["ai-agents", "llm", "human-in-the-loop", "approvals", "prompt-injection"],
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "test": "node --test 'test/*.test.ts'",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}
